@@ -13,7 +13,10 @@ body{
 
 h1{
     color: #E6B325;
-
+    font-size: 64px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #800000;
+    -webkit-text-stroke-width: 2px;
 }
 
 #message-el{
@@ -27,7 +30,9 @@ button{
     border-radius: 15px;
     border: none;
     padding: 10px;
+    font-weight: bold;
     cursor: pointer;
+    margin: 10px;
 }
 
 button:hover{
