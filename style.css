@@ -10,6 +10,10 @@ body{
     font-weight: bold;
 }
 
+p{
+    font-size: 23px;
+}
+
 
 h1{
     color: #E6B325;
@@ -28,7 +32,7 @@ button{
     width: 150px;
     color: #800000;
     border-radius: 15px;
-    border: none;
+    border: 2px solid #800000;
     padding: 10px;
     font-weight: bold;
     cursor: pointer;
@@ -38,4 +42,5 @@ button{
 button:hover{
 color: #E6B325;
 background: #800000;
+border: 2px solid #E6B325;
 }
